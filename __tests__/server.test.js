@@ -6,7 +6,7 @@ const supertest = require('supertest');
 const server = require('../server');
 const request = supertest(server.app);
 
-decribe('Node Server', () => {
+describe('Node Server', () => {
 
   it('says hello world', async () => {
     //set up test

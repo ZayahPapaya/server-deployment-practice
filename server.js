@@ -14,7 +14,7 @@ const data = (req, res) => {
     role: 'Student'
   });
 };
-const app = expreess();
+const app = express();
 app.get('/', hello);
 app.get('/data', data);
 
